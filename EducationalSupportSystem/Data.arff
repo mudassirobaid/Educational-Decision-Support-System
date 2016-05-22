@@ -1,0 +1,62 @@
+@relation Data
+
+@attribute PSM {First,'First ',Second,Third,Fail}
+@attribute CTG {Good,Average,Poor}
+@attribute SEM {Good,Average,Poor}
+@attribute ASS {Yes,No}
+@attribute GP {Yes,No}
+@attribute ATT {Good,Average,Poor}
+@attribute LW {Yes,No}
+@attribute ESM {First,Second,Third,Fail}
+
+@data
+First,Good,Good,Yes,Yes,Good,Yes,First
+'First ',Good,Average,Yes,No,Good,Yes,First
+First,Good,Average,No,No,Average,No,First
+First,Average,Good,No,No,Good,Yes,First
+First,Average,Average,No,Yes,Good,Yes,First
+First,Poor,Average,No,No,Average,Yes,First
+First,Poor,Average,No,No,Poor,Yes,Second
+First,Average,Poor,Yes,Yes,Average,No,First
+First,Poor,Poor,No,No,Poor,No,Third
+First,Average,Average,Yes,Yes,Good,No,First
+Second,Good,Good,Yes,Yes,Good,Yes,First
+Second,Good,Average,Yes,Yes,Good,Yes,First
+Second,Good,Average,Yes,No,Good,No,First
+Second,Average,Good,Yes,Yes,Good,No,First
+Second,Good,Average,Yes,Yes,Average,Yes,First
+Second,Good,Average,Yes,Yes,Poor,Yes,Second
+Second,Average,Average,Yes,Yes,Good,Yes,Second
+Second,Average,Average,Yes,Yes,Poor,Yes,Second
+Second,Poor,Average,No,Yes,Good,Yes,Second
+Second,Average,Poor,Yes,No,Average,Yes,Second
+Second,Poor,Average,No,Yes,Poor,No,Third
+Second,Poor,Poor,Yes,Yes,Average,Yes,Third
+Second,Poor,Poor,No,No,Average,Yes,Third
+Second,Poor,Poor,Yes,Yes,Good,Yes,Second
+Second,Poor,Poor,Yes,Yes,Poor,Yes,Third
+Second,Poor,Poor,No,No,Poor,Yes,Fail
+Third,Good,Good,Yes,Yes,Good,Yes,First
+Third,Average,Good,Yes,Yes,Good,Yes,Second
+Third,Good,Average,Yes,Yes,Good,Yes,Second
+Third,Good,Good,Yes,Yes,Average,Yes,Second
+Third,Good,Good,No,No,Good,Yes,Second
+Third,Average,Average,Yes,Yes,Good,Yes,Second
+Third,Average,Average,No,Yes,Average,Yes,Third
+Third,Average,Good,No,No,Good,Yes,Third
+Third,Good,Average,No,Yes,Average,Yes,Third
+Third,Average,Poor,No,No,Average,Yes,Third
+Third,Poor,Average,Yes,No,Average,Yes,Third
+Third,Poor,Average,No,Yes,Poor,Yes,Fail
+Third,Average,Average,No,Yes,Poor,Yes,Third
+Third,Poor,Poor,No,No,Good,No,Third
+Third,Poor,Poor,No,Yes,Poor,Yes,Fail
+Third,Poor,Poor,No,No,Poor,No,Fail
+Fail,Good,Good,Yes,Yes,Good,Yes,Second
+Fail,Good,Good,Yes,Yes,Average,Yes,Second
+Fail,Average,Good,Yes,Yes,Average,Yes,Third
+Fail,Poor,Poor,Yes,Yes,Average,No,Fail
+Fail,Good,Poor,No,Yes,Poor,Yes,Fail
+Fail,Poor,Poor,No,No,Poor,Yes,Fail
+Fail,Average,Average,Yes,Yes,Good,Yes,Second
+Fail,Poor,Good,No,No,Poor,No,Fail
