@@ -14,3 +14,7 @@ will help educational managers for better estimation of student’s performance 
 
 studies.
 
+This is the target repository for our project
+
+To access the source files, please go to .
+
