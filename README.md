@@ -16,5 +16,5 @@ studies.
 
 This is the target repository for our project
 
-To access the source files, please go to .
+To access the source files, please go to https://github.com/mudassirobaid/Educational-Decision-Support-System/tree/master/EducationalSupportSystem/src/myapplet.
 
